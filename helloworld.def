@@ -1,0 +1,9 @@
+BootStrap: shub
+From: vsoch/hello-world:latest
+
+%post
+echo "hello from inside the container"
+
+
+%runscript
+echo "Hello, my metaproteomics world !"
